@@ -16,7 +16,7 @@ public FiorentinoClass() {}
  */
 public float cognomeMet(int b, int e) {
 	int val1=1;
-	for(int i=1;i<=b;i++) {
+	for(int i=1;i<=e;i++) {      //correzione errore, indice e
 		val1=val1*b;
 	}
 	return val1;
